@@ -8,7 +8,7 @@
 #include <iostream>
 #include <math.h>
 #include <string>
-#include "CustomArray.hpp"
+#include "CustomArray.cpp"
 
 
 int main(int argc, const char * argv[]) {
