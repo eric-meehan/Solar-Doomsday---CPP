@@ -26,6 +26,7 @@
 		0714DB34256C4B73007B4068 /* Solar Doomsday - CPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Solar Doomsday - CPP"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0714DB37256C4B73007B4068 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0714DB3F256C4CC1007B4068 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0714DB42256C5493007B4068 /* CustomArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CustomArray.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				0714DB37256C4B73007B4068 /* main.cpp */,
+				0714DB42256C5493007B4068 /* CustomArray.hpp */,
 				0714DB3F256C4CC1007B4068 /* README.md */,
 			);
 			path = "Solar Doomsday - CPP";

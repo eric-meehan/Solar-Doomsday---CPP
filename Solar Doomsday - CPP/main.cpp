@@ -7,23 +7,19 @@
 
 #include <iostream>
 #include <math.h>
-#include <vector>
+#include "CustomArray.hpp"
 
 
 int main(int argc, const char * argv[]) {
-    std::vector<int> Results;
+    CustomArray<int> Results;
     int TotalArea = 15324;
     double Panel;
     while (TotalArea > 0)
     {
         Panel = floor(sqrt(TotalArea));
         TotalArea -= pow(Panel, 2);
-        Results.push_back(pow(Panel, 2));
+        Results.Append(pow(Panel, 2));
     }
-    for (auto each : Results)
-    {
-        std::cout << each << " ";
-    }
-    std::cout << std::endl;
+    std::cout << Results << std::endl;
     return 0;
 }
