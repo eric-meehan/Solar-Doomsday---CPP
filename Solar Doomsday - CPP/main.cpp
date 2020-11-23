@@ -1,12 +1,9 @@
-//Homo Deus
-/*
-Eric Meehan
-DATE
-
-Description
-
-©YEAR Homo Deus & Eric Meehan
-*/
+ /*
+  Eric Meehan
+  2020-11-23
+  
+  Solar Doomsday
+ */
 
 #include <iostream>
 
